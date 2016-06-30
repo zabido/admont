@@ -29,8 +29,8 @@ for dt in range(1, 5):
 			# print url
 			# print fname
 			cmd = "wget '%s' -O '%s'"%(url,fname)
-			# print cmd
-			os.system(cmd)
+			print cmd
+			#os.system(cmd)
 			time.sleep(4)
 
 
